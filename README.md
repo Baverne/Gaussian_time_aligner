@@ -12,10 +12,10 @@ It loads the gaussian platting models one after the order in order to vizualise 
 
 # Requirements:
 
--Python
--Inria's Gaussian-splatting implementation installed (https://github.com/graphdeco-inria/gaussian-splatting)
--Colmap (https://colmap.github.io/install.html)
--The source data files (https://we.tl/t-sPWec4L4ns)
+- Python
+- [Inria's Gaussian-splatting implementation installed](https://github.com/graphdeco-inria/gaussian-splatting)
+- [Colmap](https://colmap.github.io/install.html)
+- [The source data files](https://we.tl/t-sPWec4L4ns)
 
 The source data files contains :
 -A raw_data folder, which are waiting to be processed by Cameras_images_to_frames_gaussian_splatting.ipynb
