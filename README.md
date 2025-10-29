@@ -1,3 +1,12 @@
+# Gaussian Time Aligner
+
+## Overview 
+<video src="https://github.com/user-attachments/assets/46e2f885-07ff-4b1b-bc9e-237b8a9af875" controls width="100%"></video>
+Video demo, raw files captured by 13 cameras (smartphones).
+
+The project aims at creating proto-4D Gaussian splatting. The trick is to load several 3D-Gaussian splat one after the other (none 3D GS per frame)
+In order to make sure the splats are all spatially aligned, cameras' data computed by Colmap for the first frame are shared for all the other 3DGS sparse colmap point clouds.
+
 # The code is separated in two parts.
 
 	1. Cameras_images_to_frames_gaussian_splatting.ipynb
